@@ -1,0 +1,50 @@
+.navigation{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+a:hover .logo{ 
+    border-bottom: 1px solid transparent;
+}
+.navigation a{
+    font-size: 18px;
+    margin: 0px 15px;
+    text-decoration: none;
+}
+.navigation a:hover{
+    border-bottom: 1px solid transparent;
+}
+.html{
+    color: #fafafa;
+    background-color: rgba(241, 101, 41, 1);
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.html:hover{
+    background-color: rgba(241, 101, 41, .1);
+    color: #F16529;
+}
+.css{
+    background-color: rgba(36, 101, 241, 1);
+    color: #fafafa;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.css:hover{
+    color: #2465F1;
+    background-color: rgba(36, 101, 241, .1);
+}
+.js{
+    color:#fafafa;
+    background-color: rgba(255, 216, 58, 1);
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.js:hover{
+    color: #FFD83A;
+    background-color: rgba(255, 216, 58, .1);
+}

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  color: #232323;
+  background-color: #fafafa;
+}
+header{
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+  backdrop-filter: blur(10px);
+}
+
+.App{
+  margin-top: 0px;
+}
+a{
+  text-decoration: none;
+}
+li{
+  margin: 5px 0px;
+}

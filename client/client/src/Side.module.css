@@ -1,0 +1,7 @@
+.block{
+    width: 10%;
+    height: 100vh;
+}
+.block:hover{
+    background-color: #E4EBFA;
+}
